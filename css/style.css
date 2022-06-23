@@ -1,0 +1,239 @@
+
+*{
+    @media (min-width:1024px) {
+      .wide {
+        grid-column: span 2;
+      }
+    
+      .tall {
+        grid-row: span 2;
+      }
+    }
+   @media screen and (min-width:780px) and (max-width: 1024px){
+   body{
+    background-image: url(../img/1024c.webp);
+   }
+   
+  }
+    
+   @media screen and (min-width:480px) and (max-width: 780px){
+    body{
+      background-image: url(../img/coffe123.webp);
+     }
+    
+  
+   }
+  
+   @media screen and (min-width:480px){
+   }
+  }
+  /* EL DISEÑO GENERAL*/
+  
+  .bodyy{
+      border: 10cm;
+       text-align: center;
+       background-image: url("../img/fondocss.png");
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+   }
+  h1{
+      letter-spacing: 15px;
+      color: rgb(238, 77, 14);
+      font-style: normal;
+      font-weight: normal;
+      padding: 10px 10px;
+      
+   }
+   
+   
+   /* TODOS LOS H2 MISMO DISEÑO */
+   h2{
+       color: rgb(243, 83, 9);
+       text-align: center;
+       }
+       
+      h2{
+          color: rgb(245, 73, 6);
+          font-style:unset 
+          }
+  
+   /* ACOMODAR LAS VIÑETAS */
+    .navigation ul{
+      margin: 12px 26px;
+      padding: 10px 12px;
+      list-style: none;
+      text-align: center;
+      
+  }
+  .navigation ul li{
+      display: inline-block;
+  }
+  .navigation ul li a{
+      display: block;
+      padding: 0.5rem 1.5rem;
+      text-decoration: none;
+      color: chocolate;
+      
+      }
+      .navigation ul li a:hover{
+          background-color:bisque;
+          transition: background-color 1s ease-out;
+          }
+      /* DISEÑO DE TODOS LOS PARRAFOS */
+    .parrafo{
+       font-size: 20px;
+       text-align: center;
+       font-style: italic;
+       border-style:double;
+       border-width: 2px; 
+       margin: 15px 26px;
+       border-color: rgb(138, 130, 121);
+       color: orange;
+      }
+  
+             /*APLICANDO ID*/
+   
+  
+     
+             #color-100{
+             font-style:oblique;
+              color: chocolate;
+                     }
+               
+               
+              /* SHOP */
+              .compra-b{
+                  font-family: sans-serif;
+                  text-align: center;
+                }
+                .estilo-b .img-container{
+                  overflow: hidden;
+                  position: relative;
+                }
+                .estilo-b .img-container img{
+                  width: 100%;
+                }
+                .estilo-b .img-container .price{
+                  position: absolute;
+                  top: 10px;
+                  left: 0;
+                  font-size: 20px;
+                  background: white;
+                  padding: 15px;
+                }
+                .estilo-b .img-container .favorite{
+                  position: absolute;
+                  bottom: 10px;
+                  right: 10px;
+                  background: rgb(228, 210, 210);
+                  border-radius: 50%;
+                  height: 50px;
+                  width: 50px;
+                  cursor: pointer;
+                }
+                .estilo-b .img-container .favorite svg{
+                  transform: translatey(14px);
+                }
+                .estilo-b .img-container .favorite:hover{
+                  background: rgb(238, 234, 234);
+                }
+                .estilo-b .img-container .favorite:hover svg{
+                  fill: rgb(238, 124, 18);
+                }
+                .estilo-b a{
+                  display: inline-block;
+                  margin-top: 2px;
+                  text-decoration: none;
+                  color: white;
+  
+                  padding: 15px;
+                  border: 1px solid rgb(244, 245, 240);
+                }
+                .estilo-b a:hover{
+                  color: rgb(247, 240, 240);
+                  background-color: transparent;
+                  border: 1px solid rgb(235, 136, 7);
+                }
+              
+               
+               /* TODO SECCION CONTACTO */
+               body{
+                  background-image: url("../img/fondocss.png");
+                  background-position: center center;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   background-attachment: fixed;
+                   padding: 0.5rem;
+              }
+  
+              .content{
+                  max-width: 600px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  padding: 1.5em;
+                  color:orange;
+                  
+  
+              }
+              .logo{
+                  text-align: center;
+                  font-size: 3em;
+              }
+                
+               .contact-info{
+                   box-shadow: 0 0 20px 0;
+               }
+               .contact-info> *{
+                   padding: 1em;
+               }
+               .contact-form form{
+                   margin: 0;
+                   padding: 1em;
+               }
+               .contact-form form button,
+               .contact-form form input,
+               .contact-form form textarea {
+                   width: 90%;
+                   padding: .5em;
+                   border:none;
+                   
+                   
+  
+               }
+               .contact-form form input{
+                   margin: auto;
+                   margin: 4px;
+               }
+               .boton:hover{
+                   background-color: orange;
+                   transition: background-color 1s ease-out;
+               }
+               /* ADAPTAR LA SECCION DE CONTACTO */
+               @media (min-width: 700px){
+                   body{
+                       padding: 0 4rem;
+                   }
+               }
+               .contact-info h4{
+                   font-size: 20px;
+                  
+               }
+  
+               .contact-info{
+                   text-align: center;
+                   color: white;
+               }
+               .contact-info li{
+                   list-style: none;
+               }
+               
+               
+               
+               /* FOTO INDEX PRINCIPAL */
+               .fotop{
+                  box-shadow: 0px 0px 20px 0px;
+                  color:chocolate;
+  
+               }
